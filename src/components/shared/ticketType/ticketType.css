@@ -1,0 +1,24 @@
+.ticket-type-base {
+  border: 1px solid #e5e4e2;
+  border-radius: 0.3em;
+  margin: 0em 0.5em 0em 0em;
+  padding: 0.1em;
+  font-size: 0.8em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #708090;
+}
+
+.ticket-type-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.ticket-type-color-circle {
+  width: 0.8em;
+  height: 0.8em;
+  background: #99cc00;
+  border: 2px solid white;
+  border-radius: 100%;
+}

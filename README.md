@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# QuickSell Lead Frontend developer Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an assignment submission by Snehangshu Chatterjee for QuickSell for the position of a Lead Frontend Developer. The application reads an endpoint to fetch a list of some tickets, and displays it according to the given [assignment](https://quicksell.notion.site/Lead-Frontend-assignment-fa2f7f8aaada4099916994bad6ec70c2). This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
 
 ## Available Scripts
 
@@ -13,11 +13,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `yarn build`
 
@@ -39,32 +34,21 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Screenshots
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Order by ID](./screenshots/order_by_id.png)
+![Order by Priority](./screenshots/order_by_priority.png)
+![Order by Title](./screenshots/order_by_title.png)
+![Group by Priority](./screenshots/grouping_by_priority.png)
+![Group by User](./screenshots/grouping_by_user.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Deviations
 
-### Code Splitting
+I have deviated from the given design at one place. As visible in the above screenshots, Insstead of having one dropdown which displays the option to select Grouping and Ordering of the tickets, I have displayed them as separate dropdowns. These serve the follwing purposes:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Reduces the number of clicks that the user has to do for doing the function (from 2 clicks to 1 click)
+- The header would have been empty otherwise, which was not looking aesthetically pleasing
 
-### Analyzing the Bundle Size
+## Improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+There are a lot of things that could have been improved if I had more time, for instance adding Unit Tests to the application. 

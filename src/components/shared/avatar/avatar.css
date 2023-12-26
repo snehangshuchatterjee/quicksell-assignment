@@ -1,0 +1,37 @@
+.c-avatar {
+  position: relative;
+  display: inline-block;
+  color: #000000;
+  line-height: 1.85;
+  text-align: center;
+}
+
+.c-avatar__image {
+  width: 1.7em;
+  height: 1.7em;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.c-avatar__text {
+  width: 1.9em;
+  height: 1.9em;
+  object-fit: cover;
+  border-radius: 100%;
+  border: 0.1em solid #ffffff;
+  background-color: #818589;
+  color: #ffffff;
+  font-size: smaller;
+  font-weight: 600;
+}
+
+.c-avatar__status {
+  width: 0.7em;
+  height: 0.7em;
+  background: #99cc00;
+  border: 2px solid white;
+  position: absolute;
+  bottom: 2%;
+  right: 0%;
+  border-radius: 100%;
+}
