@@ -1,6 +1,10 @@
 # QuickSell Lead Frontend developer Assignment
 
-This is an assignment submission by Snehangshu Chatterjee for QuickSell for the position of a Lead Frontend Developer. The application reads an endpoint to fetch a list of some tickets, and displays it according to the given [assignment](https://quicksell.notion.site/Lead-Frontend-assignment-fa2f7f8aaada4099916994bad6ec70c2). This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
+This is an assignment submission by Snehangshu Chatterjee for QuickSell for the position of a Lead Frontend Developer. The application reads an endpoint to fetch a list of some tickets, and displays it according to the given [assignment](https://quicksell.notion.site/Lead-Frontend-assignment-fa2f7f8aaada4099916994bad6ec70c2).
+
+The application has been deployed using Netlify, and can be found [here](https://main--quicksell-assignment-sneh.netlify.app/)
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -51,4 +55,4 @@ I have deviated from the given design at one place. As visible in the above scre
 
 ## Improvements
 
-There are a lot of things that could have been improved if I had more time, for instance adding Unit Tests to the application. 
+There are a lot of things that could have been improved if I had more time, for instance adding Unit Tests to the application.
